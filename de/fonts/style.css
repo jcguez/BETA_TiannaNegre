@@ -1,0 +1,314 @@
+.da-thumbs {
+	list-style: none;
+	width: 984px;
+	height: 600px;
+	position: relative;
+	margin: 20px auto;
+	padding: 0;
+}
+.da-thumbs li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 8px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: #333;
+	background: rgba(75,75,75,0.7);
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 40px 20px 20px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+/*-------------------------------------------JC-*/
+body{
+	background-color: #ececec;
+}
+
+*{
+	font-family: "Raleway",Helvetica,sans-serif;
+	letter-spacing: 2px;
+}
+
+.bloque{
+	margin-top: 12%;
+	background-color: #C6C6C6;
+	padding: 20px 5px;
+	box-shadow: 0 30px 60px -4px #999,-6px 0 4px -4px #f2f2f2;
+}
+
+input, textarea{
+	background-color: rgba(255, 255, 255, 0.68);
+	border-style: double;
+	width: 90%;
+	margin: 8px 5%;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+button{
+	width: 90%;
+	margin: 20px 5%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-style: none;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+.headerI{
+  margin-left: 0px;
+  margin-right: 0px;
+	background-color: #C6C6C6;
+	margin-bottom: 25px;
+	-webkit-box-shadow: 0px 7px 8px -2px rgba(0,0,0,0.47);
+	-moz-box-shadow: 0px 7px 8px -2px rgba(0,0,0,0.47);
+	box-shadow: 0px 7px 8px -2px rgba(0,0,0,0.47);
+}
+
+.headerI > img{
+	padding: 20px;
+}
+
+.bodyI{
+	padding: 0 15px;
+}
+
+/*.sesion{
+	margin-bottom: 10%;
+}*/
+
+.sesion > img{
+	margin: 20px 0;
+}
+
+.form-datos{
+	margin-top: 20px;
+}
+
+.form-datos > input, textarea{
+	background-color: #ececec;
+	/*border-color: #000;*/
+}
+
+.txt-left{
+	text-align: left;
+}
+
+.input-File{
+	border-style: none;
+}
+
+.thumb-image{
+	float:left;
+	width:100px;
+	position:relative;
+	padding:5px;
+}
+
+
+/*------------------------------Loading Dots CSS*/
+.loading {
+  width: 100%;
+  height: 100%;
+  background: #16171d;
+  opacity: 0.9;
+  position: fixed;
+  display: none;
+  z-index: 1000;
+}
+
+.loading > div {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  top: 50%;
+  margin-top: -30px;
+}
+
+
+.loading > div > div {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #ff8c00;
+  top: 10px;
+  left: 10px;
+  transform-origin: 20px 20px;
+  border-radius: 8px;
+  animation: spin-a 2s infinite cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.loading > div > .c2 {
+  top: 10px;
+  left: auto;
+  right: 10px;
+  transform-origin: -4px 20px;
+  animation: spin-b 2s infinite cubic-bezier(0.5, 0, 0.5, 1);
+}
+.loading > div > .c3 {
+  top: auto;
+  left: auto;
+  right: 10px;
+  bottom: 10px;
+  transform-origin: -4px -4px;
+  animation: spin-c 2s infinite cubic-bezier(0.5, 0, 0.5, 1);
+}
+.loading > div > .c4 {
+  top: auto;
+  bottom: 10px;
+  transform-origin: 20px -4px;
+  animation: spin-d 2s infinite cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@keyframes spin-a {
+  0%   { transform: rotate(90deg); }
+  0%  { transform: rotate(90deg); }
+  50%  { transform: rotate(180deg); }
+  75%  { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin-b {
+  0%   { transform: rotate(90deg); }
+  25%  { transform: rotate(90deg); }
+  25%  { transform: rotate(180deg); }
+  75%  { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin-c {
+  0%   { transform: rotate(90deg); }
+  25%  { transform: rotate(90deg); }
+  50%  { transform: rotate(180deg); }
+  50%  { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin-d {
+  0%   { transform: rotate(90deg); }
+  25%  { transform: rotate(90deg); }
+  50%  { transform: rotate(180deg); }
+  75%  { transform: rotate(270deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.loading > span {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: 30px;
+  color: #ff8c00;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/*-----------------------------------------------------------Menú Sidr*/
+#menu-sidr{
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+#simple-menu{
+  color: #fff;
+}
+
+#simple-menu:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+#simple-menu > span{
+  font-size: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*--------------------------------------------------------Hover Direction Aware*/
+
+.da-thumbs {
+  list-style: none;
+  width: 984px;
+  height: 600px;
+  position: relative;
+  margin: 20px auto;
+  padding: 0;
+}
+.da-thumbs li {
+  float: left;
+  margin: 5px;
+  background: #fff;
+  padding: 8px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+  display: block;
+  position: relative;
+  width: 220px;
+  height: 165px;
+}
+.da-thumbs li a {
+  overflow: hidden;
+}
+.da-thumbs li a div {
+  position: absolute;
+  background: #333;
+  background: rgba(75,75,75,0.7);
+  width: 100%;
+  height: 100%;
+}
+.da-thumbs li a div.custom-hover-object {
+  position: absolute;
+  background: #333;
+  background: rgba(255,255,255,0.7);
+  width: 100%;
+  height: 100%;
+}
+.da-thumbs li a div span {
+  display: block;
+  padding: 10px 0;
+  margin: 40px 20px 20px 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+.da-thumbs li a div.custom-hover-object span {
+  color: rgba(75,75,75,0.9);
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,255.1), 0 -10px 0 rgba(0,0,0,0.3);
+}
+

@@ -1,0 +1,141 @@
+*{ margin: 0px; padding: 0px; }
+p{ color: #7E7F81; }
+.no-padding{ padding: 0px !important; }
+.no-padding-top{ padding-top: 0px !important; }
+.no-padding-bottom{ padding-bottom: 0px !important; }
+.no-padding-left{ padding-left: 0px !important; }
+.no-padding-right{ padding-right: 0px !important; }
+.no-margin{ margin: 0px !important; }
+.no-margin-top{ margin-top: 0px !important; }
+.no-margin-bottom{ margin-bottom: 0px !important; }
+.no-margin-left{ margin-left: 0px !important; }
+.no-margin-right{ margin-right: 0px !important; }
+.big-margin-top{ margin-top: 20px !important; }
+.big-margin-right{ margin-top: 20px !important; }
+.big-margin-bottom{ margin-bottom: 20px !important; }
+.big-margin-left{ margin-top: 20px !important; }
+
+.item-row{ padding-left: 0px; padding-right: 0px; }
+.item-row-lft{ padding-right: 15px; padding-left: 0px; }
+.item-row-rgt{ padding-left: 15px; padding-right: 0px; }
+
+.header-turismo{ font-size: 25px; font-weight: 300; color: #fff; margin-top: 8px; }
+.btn-turismo{ width: 100%; padding: 10px; color: #fff; background-color: #262627; border: 1px solid #fff; }
+.target-blanco{ background-color: #fff; padding-top: 40px; padding-bottom: 30px; }
+.target-gris{ background-color: #F1F2F4; padding-top: 40px; padding-bottom: 30px; }
+.target-negro{ background-color: #333; padding-top: 40px; padding-bottom: 30px; }
+/*footer abajo 292929*/
+
+.container-circle{ border-radius: 50%; background-color: #4D4C4F; height: 100px; width: 100px; margin-right: auto; margin-left: auto; }
+
+.header-section{ font-weight: 700; text-align: center; font-size: 40px; margin-top: 20px; margin-bottom: 10px; }
+.container-sep-top{ margin-top: 40px; }
+div.container-sep{ width: 100%; height: 5px; }
+div.container-sep > .thin-sep-center{ border-top: 2px solid #000; margin-left: auto; margin-right: auto; width: 40px; }
+div.container-sep > .thin-sep-left{}
+div.container-sep > .thin-sep-right{}
+
+
+/*HOME*/
+.container-full-img{ position: relative; }
+.headerFrente{ position: absolute; width: 100%; z-index: 15; }
+.navbar-brand{ color: #fff; }
+#bs-navbar.in{ background-color: #000; }
+.navbar-toggle span.icon-bar{ background-color: #fff; }
+.item-menu, .item-menu > a:hover{ color: #fff; }
+.capa-black{ position: absolute; top: 0px; right: 0px; bottom: 4px; left: 0px; background-color: rgba(8, 8, 8, 0.75); }
+.capa-slider{ position: absolute; top: 0px; right: 0px; bottom: 4px; left: 0px; z-index: 5; }
+#owl-main .owl-wrapper-outer{ height: 93%; }
+#owl-main .owl-wrapper-outer .owl-wrapper{ height: 100%; }
+.container-carrousel{ padding: 20% 10%; text-align: center; }
+.container-carrousel > h1, .title-yellow{ font-size: 60px; font-weight: 700; color: #D4D44C; }
+.container-carrousel > p{ color: #fff; }
+.capa-black .title-yellow{ display: block; padding: 12% 10%; text-align: center; }
+.images-team{ padding-top: 20px; padding-bottom: 20px; }
+.contenedor-tiendas{ padding: 40px 25px; }
+.contenedor-tiendas > p{ text-align: center; padding-top: 15px; }
+.contenedor-tiendas > .header-section{ font-size: 28px; }
+p.text-center-target{ margin-top: 10px; margin-bottom: 30px; }
+
+.item-vinos{ height: 220px; background-color: #F7F9FA; }
+.item-vinos:hover{ background-color: #fff; }
+.item-vinos > .contenedor-item-vino{ display: block; position: relative; }
+.item-vinos > .contenedor-item-vino > img{ max-height: 172px; padding-top: 10px; opacity: .5; }
+.item-vinos > .contenedor-item-vino > img:hover{ opacity: 1; }
+.item-vinos > .nombre-item-vino{ position: absolute; bottom: 0px; left: 0px; right: 0px; height: auto; background-color: #D5D44C; }
+.item-vinos .nombre-item-vino > p{ text-align: center; padding-top: 13px; padding-bottom: 3px; color: #000; font-size: 15px; }
+
+#footer-contacto{ color: #7D7E80; }
+#copy-footer{ font-size: 14px; font-weight: 700; letter-spacing: 1px; margin-top: 60px; margin-bottom: 25px; }
+.icons-social-footer span{ padding: 0 12px; }
+.col-footer{ border-left: 1px solid #7D7E80; padding: 0 25px; height: 165px; font-size: 13px; }
+.menu-footer{ list-style: none; }
+.menu-footer > li{ padding: 2px 0px; }
+.title-footer-menu{ margin-top: 20px; margin-bottom: 20px; padding: 0px 15px; color: #fff; font-weight: 200; }
+#derechos > p{ font-size: 13px; color: #7B8A90; padding: 18px 0px; margin: 0px; text-align: center; background-color: #1E1F1F; }
+.contenedor-slider-tiendas{ position: relative; }
+.contenedor-slider-tiendas .izq, .contenedor-slider-tiendas .centro, .contenedor-slider-tiendas .der{ position: absolute; }
+.contenedor-slider-tiendas .izq{ left: 0; bottom: 0; top: 40px; width: 50%; z-index: 20; }
+.contenedor-slider-tiendas .der{ right: 0; bottom: 0; top: 40px; width: 50%; z-index: 20; }
+.contenedor-slider-tiendas .centro{ left: 0; right: 0; bottom: 0; top: 0; width: 57%; margin-left: auto; margin-right: auto; z-index: 25; }
+.imagenes-slide{ height: 294px; overflow: hidden; }
+
+/*Media Querys HOME */
+@media screen and (max-width: 760px) {
+	#bs-navbar.in{ background-color: transparent; }
+}
+
+@media screen and (max-width: 1200px) {
+	.imagenes-slide{ height: 241px; overflow: hidden; }
+}
+
+@media screen and (max-width: 600px) {
+	.imagenes-slide{ height: 210px; overflow: hidden; }
+}
+
+@media screen and (max-width: 500px) {
+	.imagenes-slide{ height: 150px; overflow: hidden; }
+}
+
+@media screen and (max-width: 400px) {
+	.imagenes-slide{ height: 112px; overflow: hidden; }
+}
+
+/*ACEITE*/
+.titulo-desc-aceite{ margin-top: 0px; font-size: 14px; font-weight: 600; margin-bottom: 0px; }
+/*.parrafo-desc-aceite:last-child{ margin-bottom: 30px; }*/
+.items-aceites{ margin-top: 20px; }
+.item-proc-aceite > h4{ display: block; margin-top: 25px; margin-bottom: 25px; text-align: center; font-size: 14px; font-weight: 600; }
+.main-aceite{ padding-bottom: 35px; }
+.procesos-aceite{ margin-top: 20px; }
+.main-aceite div .container-sep-top{ margin-top: 25px; }
+.contenedor-ovalo{ position: relative; }
+.ovalo-blanco{ position: absolute; left: 44%; right: 44%; margin-top: -15px; border-radius: 20px; background-color: #fff; text-align: center; border: 1px solid #D8D8D8B3; padding: 5px; }
+.ovalo-blanco > p{ margin: 0px; color: #414244; font-weight: 700; }
+
+/*VINOS*/
+.cont-img-vino{ background-color: #E8EAEB; height: 175px; margin: 15px; }
+.cont-img-vino img{ max-height: 180px; margin-left: auto; margin-right: auto; display: block; }
+.titulo-vinos{ padding: 5px 0px 50px 0px; text-align: center; }
+.contenedor-vino-grilla{ padding: 5px 10px; background-color: #EAEAEA; min-height: 150px; }
+.cont-vinos-img{ position: relative; }
+.cont-vinos-img > img{ position: absolute; max-height: 170px; top: -15px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+.titulo-vino-grilla{ text-align: center; padding: 15px 0px; text-decoration: none; color: #000; }
+.titulo-vino-grilla:hover{ color: #000; }
+.fila-vinos{ padding: 20px 0px 30px 0px; }
+.titulo-vinos > h4{ font-size: 14px; color: #7D7D7D; font-weight: 300; }
+
+/*DETALLES VINOS*/
+.target-gris{ position: relative; }
+.arrows{ position: absolute; top: 0; bottom: 0; margin-top: auto; margin-bottom: auto; width: 100%; }
+.arrows .arrow-left{ background-color: #666768; padding: 20px 8px; float: left; margin-top: 17%; }
+.arrows .arrow-right{ background-color: #666768; padding: 20px 8px; float: right; margin-top: 17%; }
+.arrow-left i, .arrow-right i{ color: #fff; font-size: 20px; font-weight: 700; }
+/*.p-large{ max-height: 40px; overflow: hidden; position: relative; margin-bottom: 0px; }*/
+a.link-show-more{ position: relative; display: block; height: 24px; }
+span.show-more{ color: #83ABC3; position: absolute; top: 0; bottom: 0; z-index: 20; width: 100%; }
+.desc-oculto{ display: none; }
+
+
+
+
